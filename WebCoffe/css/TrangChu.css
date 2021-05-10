@@ -1,0 +1,299 @@
+html{
+  scroll-behavior: smooth;
+}
+.TrangChu{
+	background-image: url(../images/banner.jpg);
+	width:100%;
+	min-height:700px;
+	background-attachment:fixed;
+	background-size:cover;
+}
+.menu {	
+	font-family:'Open Sans',sans-serif;
+	font-size:14px;
+	font-weight:600;
+	text-transform:uppercase;
+}
+.navbar.navbar-inverse.navbar-static-top a {
+	color:#fff;
+	padding:31px 16px;
+	line-height:5px;
+	
+}
+.banner {
+	margin-top:0;
+}
+.w3-container.w3-center.w3-animate-zoom{
+	font-family: 'Lobster', cursive;
+	padding: 50px;	
+	font-size:60px;
+	font-weight: 0px;
+	color:#fff;
+}
+
+
+.logo{
+	width:14%;
+}
+.heading {
+    padding-bottom: 50px;
+    text-align: center;
+    max-width: 960px;
+    margin: 0px auto;
+    padding-top: 40px;
+}
+
+.heading h2 {
+	font-weight:700;
+	font-family:'Playball',cursive;
+	font-size:40px;
+	color:#333;
+	margin:0;
+	padding:5px;
+}
+
+.heading h2::first-letter {
+	color:#cc580c;
+}
+
+.heading b {	
+	font-size:17px;
+	line-height:2;
+}
+/* App */
+.App{
+	background-image:url(../images/app.jpg) ;
+	width: 100%;
+	padding-bottom: 50px;
+	padding-top: 20px;
+	background-size:cover;
+}
+
+.App_content{
+    margin: 100px 0px;
+    color: #fff;
+    overflow: hidden;
+}
+
+.App_text h2{
+	font-weight:700;
+	font-size:30px;
+	display:block;
+	padding-bottom: 20px;
+}
+
+.App_text h3 {
+	font-weight:500;
+}
+
+.App_text a{
+	margin-top:100px;
+	margin-left:10px;
+	display:inline-block;
+}
+.App_text a img{
+	max-width:90%;
+}
+.borderStar{
+	width:30%;
+	size:auto;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+/*Form Liên Hệ */
+.LienHe{
+	background-image: url(../images/banner.jpg);
+	background-size: cover;
+}
+.headingLH{
+    padding-bottom: 50px;
+    text-align: center;
+    max-width: auto;
+    margin: 0px auto;
+    padding-top: 40px;
+}
+
+.headingLH h2 {
+	font-weight:700;
+	font-family:'Playball',cursive;
+	font-size:40px;
+	color:#f0f0f0;
+	margin:0;
+	padding:5px;
+}
+.headingLH h2::first-letter {
+	color:#cc580c;
+}
+.form-control {
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    font-size: 16px;
+    height: 35px;
+    max-width: 60%;
+}
+.form-group {
+	 color:#f0f0f0; 
+}
+.containerForm{
+	margin-left: 16%;
+}
+.LienHe{
+	padding-bottom: 60px;
+	padding-top:50px;
+}
+.LienHe h3{    	
+}
+.col-sm-offset-2.col-sm-10 {
+	padding-left: 18%;
+}
+
+
+/* Thông tin ( Địa Chỉ + Time ) .............. */
+ .ok {
+	 background-color: black ;	
+ }
+ 
+.ok_content {
+	color:#fff;
+	text-align:center;
+}
+.ok_1_content {
+text-align : center;
+	color:#fff;
+	margin-left:-110px;
+}
+
+.ThongTin {
+	padding-bottom: 20px;
+	padding-top:20px;
+	font-family:'Playball',cursive;
+	font-size: 22px;
+}
+.ThongTin h3 {
+	font-size: 30px;
+}
+.info {
+	margin-top:50px;
+}
+
+.info p span {
+	display:block;
+}
+
+.footer_socail_icon a{
+	padding:5px;
+	display: block;
+}
+.footer_socail_icon a i{
+	font-size:20px;
+	color:#e7a331;
+}
+
+.info p span.date_day{
+	margin-top:30px;
+	margin-bottom:10px;	
+}
+.info p span.phone_email{
+	margin-top:30px;
+}
+
+/* Câu Chuyện */
+.CauChuyen{
+	margin-top: 50px;
+}
+.CauChuyen_text p span{
+	text-align: left;
+	font-size: 18px;
+	padding: 5px;
+	display:block;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.CauChuyen_text {
+	margin-left: 30px;
+}
+
+/* Thực đơn -> cà phê , trà sữa, sinh tố, trà */
+.drink_text img {
+	width: 100%;
+	display: block;
+}
+.drink_text{
+	display:inline-block;
+	padding:20px;
+	position:relative;
+	overflow:hidden;
+	cursor:pointer;
+}
+.drink_content{
+	padding-bottom:120px;
+	display:inline-block;
+}
+.drink_content figcaption {
+	background:#333;
+	padding: 10px;
+}
+.drink_images h3 {	
+	color:#fff;
+	font-size:17px;
+	font-weight:300	;
+}
+.drink {
+	margin-left: 0px;
+}
+.drink_text h3{
+	font-family:'Playball',cursive;
+	font-size: 25px;
+}
+
+
+@media all and (max-width: 1440px) {
+
+}
+@media all and (max-width: 1024px) {
+
+}	
+@media all and (max-width: 900px) {
+
+}
+@media all and (max-width: 768px) {
+
+}
+@media all and (max-width: 680px) {
+
+}
+@media all and (max-width: 620px) {
+
+}
+@media all and (max-width: 600px) {
+
+}
+@media all and (max-width: 500px) {
+	
+}
+@media all and (max-width: 425px) {
+	.w3-container.w3-center.w3-animate-zoom{
+		font-size:35px;
+	}
+	.logo{
+	width:30%;
+	}
+	.form-control {
+    font-size: 14px;
+    max-width: 80%;
+}
+}
+@media all and (max-width: 320px) {
+	.w3-container.w3-center.w3-animate-zoom{
+		font-size:25px;
+	}
+}
+
+
+
+
+
+
+
+
+
