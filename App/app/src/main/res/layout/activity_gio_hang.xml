@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.GioHang">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbargiohang"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#5dc188"
+        app:title="Giỏ hàng"
+        app:titleTextColor="#ecfc08" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerviewgiohang"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tổng tiền :"
+            android:layout_weight="1"
+            android:textColor="#f20"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textviewtongtien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:gravity="center"
+            android:text="Giá Trị"
+            android:textColor="#f20"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnmuahang"
+        android:text="Thanh Toán"
+        android:textSize="20sp"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:background="#1C3F85"
+        android:textColor="#FFFFFC"
+        android:layout_marginBottom="15dp"
+        />
+    <Button
+        android:id="@+id/btntieptuc"
+        android:text="Tiếp Tục Mua Hàng"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1C3F85"
+        android:textColor="#FFFFFC"
+        />
+
+    </LinearLayout>

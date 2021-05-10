@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ThanhToan"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:background="@drawable/ok">
+        <TextView
+            android:textColor="#FFFFFD"
+            android:layout_marginTop="30dp"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Thông Tin Khách Hàng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#FFFFFD">
+            <EditText
+                android:textColor="#FFFFFD"
+                android:textSize="22sp"
+                android:layout_marginTop="30dp"
+                android:hint="Nhập Tên Khác Hàng"
+                android:id="@+id/edittenkhachhang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#FFFFFD">
+            <EditText
+                android:textColor="#FFFFFD"
+                android:textSize="22sp"
+                android:hint="Nhập Số Điện Thoại"
+                android:id="@+id/editsdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#FFFFFD">
+            <EditText
+                android:textSize="22sp"
+                android:textColor="#FFFFFD"
+                android:hint="Nhập Địa Chỉ "
+                android:id="@+id/editdiachi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <Button
+                android:id="@+id/btnxacnhan"
+                android:layout_marginTop="30dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:background="#1C3F85"
+                android:textColor="#FFFFFC"
+                android:text="Xác Nhận"
+                android:layout_width="match_parent"
+                android:layout_height="55dp">
+            </Button>
+
+            <Button
+                android:id="@+id/btnhuy"
+                android:layout_marginTop="30dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:background="#1C3F85"
+                android:textColor="#FFFFFC"
+                android:text="Hủy"
+                android:layout_width="match_parent"
+                android:layout_height="55dp">
+            </Button>
+
+
+
+</LinearLayout>
